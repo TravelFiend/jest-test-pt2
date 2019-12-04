@@ -17,7 +17,8 @@ describe('Validator', () => {
                 spokes: 36,
                 saddle: 'leather'
             };
-
+            console.log(spokeValidator.validate(bike));
+            
             expect(spokeValidator.validate(bike)).toEqual(36);
         });
 
