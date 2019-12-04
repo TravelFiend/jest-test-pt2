@@ -29,7 +29,7 @@ describe('Schema', () => {
         });
     });
 
-    it('doesn\'t validate this weak sauce schema', () => {
+    it('should throw this weak sauce schema', () => {
         const schema = new Schema({
             brand: {
                 type: String,
