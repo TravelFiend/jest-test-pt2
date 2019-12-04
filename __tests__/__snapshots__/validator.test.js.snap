@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validator not required fields should throw if cannot cast, what were thinking you dimb 1`] = `"Cannot read property 'validate' of undefined"`;
+
+exports[`Validator required fields should throw if cannot cast, what were thinking you dimb 1`] = `"Cannot read property 'validate' of undefined"`;
+
+exports[`Validator required fields should throw if field is missing, be better at things 1`] = `"Cannot read property 'validate' of undefined"`;
