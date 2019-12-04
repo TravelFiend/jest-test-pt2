@@ -28,4 +28,27 @@ describe('Schema', () => {
             saddle: 'leather'
         });
     });
+
+    it('doesn\'t validate this weak sauce schema', () => {
+        const schema = new Schema({
+            brand: {
+                type: String,
+                required: true
+            },
+            spokes: {
+                type: Number,
+                required: true
+            },
+            saddle: {
+                type: String
+            }
+        });
+
+        const bike = {
+            brand: 'Rocky Mountain',
+            saddle: 'leather'
+        };
+
+        expect(() => schema.validate(bike)).toThrowErrorMatchingSnapshot();
+    });
 });
