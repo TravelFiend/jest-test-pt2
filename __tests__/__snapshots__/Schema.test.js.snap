@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schema should throw this weak sauce schema 1`] = `"invalid schema >> Error: You're missing the spokes field"`;
