@@ -1,5 +1,5 @@
 TN:
-SF:/Users/mikeeg/alchemy/career-track/jest-test-pt2/lib/Schema.js
+SF:lib/Schema.js
 FN:4,(anonymous_0)
 FN:7,(anonymous_1)
 FN:10,(anonymous_2)
@@ -32,7 +32,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:/Users/mikeeg/alchemy/career-track/jest-test-pt2/lib/Validator.js
+SF:lib/Validator.js
 FN:4,(anonymous_0)
 FN:11,(anonymous_1)
 FNF:2
@@ -65,7 +65,7 @@ BRF:8
 BRH:8
 end_of_record
 TN:
-SF:/Users/mikeeg/alchemy/career-track/jest-test-pt2/lib/types.js
+SF:lib/types.js
 FN:1,(anonymous_0)
 FN:2,(anonymous_1)
 FN:3,(anonymous_2)
