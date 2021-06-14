@@ -17,7 +17,7 @@ describe('Validator', () => {
                 spokes: 36,
                 saddle: 'leather'
             };
-            console.log(spokeValidator.validate(bike));
+            console.log(spokeValidator.validate(bike)); // eslint-disable-line no-console
             
             expect(spokeValidator.validate(bike)).toEqual(36);
         });

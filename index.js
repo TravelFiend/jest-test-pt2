@@ -10,6 +10,7 @@ const {
     castToBoolean,
 } = require('./lib/types.js');
 
+/* eslint-disable no-console */
 console.log(isNumber('3'));
 console.log(isString('3'));
 console.log(isBoolean(false));
@@ -19,3 +20,4 @@ console.log(isFunction(() => {}));
 console.log(castToNumber('98696'));
 console.log(castToString(63346));
 console.log(castToBoolean(0));
+/* eslint-enable no-console */
